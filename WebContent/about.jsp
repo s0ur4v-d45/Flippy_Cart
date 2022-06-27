@@ -10,5 +10,6 @@
 <body>
 <%@include file="components/navbar.jsp" %>
    <h1>About page</h1>
+   <%@include file = "components/modal.jsp"%>
 </body>
 </html>

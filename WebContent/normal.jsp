@@ -30,5 +30,7 @@ else if(user.getUserType().equals("admin"))
 </head>
 <body>
 <h1>This is normal user panel</h1>
+
+
 </body>
 </html>

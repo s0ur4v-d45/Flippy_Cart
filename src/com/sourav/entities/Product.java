@@ -138,4 +138,11 @@ public class Product {
 	@ManyToOne
 	private Category category;
 
+	
+	public int getPriceAfterDis()
+	{
+		int d=(int)((this.getpDiscount()/100.0)*this.getpPrice());
+		return this.getpPrice()-d;
+	}
+	
 }
